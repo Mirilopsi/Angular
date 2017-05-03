@@ -17,3 +17,12 @@ $ npm start
 
 ``` 
 
+----------------------------------
+
+Para compilar el código y ver si hay posibles errores de typeScript, utilizamos el comando:
+
+```
+$ tsc -p src   //si tenemos tsc instalado
+$./node_modules/.bin/tsc -p src
+
+```
