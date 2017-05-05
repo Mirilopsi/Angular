@@ -1,0 +1,18 @@
+<!--<ejemplos-binding></ejemplos-binding>
+<ejemplos-componentes></ejemplos-componentes>-->
+<!--<ejemplos-inyeccion></ejemplos-inyeccion>-->
+
+<div class="container">
+
+    <!--Título-->
+    <header>
+        <h1>Mi agenda </h1>
+    </header>
+
+    <!-- Colección de contactos -->
+    <lista-contactos [contactos]="listaContactos" (seleccionado)="mostrarDetalles($event)"> </lista-contactos>
+
+    <!--Detalles de contacto-->
+    <detalles-contacto [contacto]="contactoSeleccionado" (verFacebook)="navegarRuta($event)" (verTwitter)="navegarRuta($event)"></detalles-contacto>
+
+</div>
